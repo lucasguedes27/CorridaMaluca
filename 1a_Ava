@@ -3,8 +3,8 @@ package primeiraava;
 abstract class carro{
     
     
-    float VelocidadeMax;
-    int Cavalo;
+    private float VelocidadeMax1;
+    private int Cavalos;
     
     abstract void Nitro(); 
     
@@ -24,8 +24,8 @@ abstract class carro{
 
 abstract class moto{
     
-    float VelocidadeMax;
-    int Cilindrada;
+    private float VelocidadeMax2;
+    private int Cilindrada;
     
     
     class MotoPreto extends carro{
@@ -39,8 +39,8 @@ abstract class moto{
     }
 abstract class caminhao{
     
-    float VelocidadeMax;
-    String tracao;
+    private float VelocidadeMax3;
+    private String tracao;
     
     class CaminhaoPreto extends carro{
         
