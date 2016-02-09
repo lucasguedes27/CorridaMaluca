@@ -1,0 +1,63 @@
+package primeiraava;
+
+abstract class carro{
+    
+    
+    float VelocidadeMax;
+    int Cavalo;
+    
+    abstract void Nitro(); 
+    
+    class CarroPreto extends carro{
+
+        @Override
+        void Nitro() {
+            throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        }
+        
+    }
+    class CarroBranco extends carro {
+        
+    }
+}
+
+
+abstract class moto{
+    
+    float VelocidadeMax;
+    int Cilindrada;
+    
+    
+    class MotoPreto extends carro{
+        
+    }
+    class MotoBranco extends carro {
+        
+    }
+    
+    
+    }
+abstract class caminhao{
+    
+    float VelocidadeMax;
+    String tracao;
+    
+    class CaminhaoPreto extends carro{
+        
+    }
+    class CaminhaoBranco extends carro {
+        
+    }
+    
+    
+}
+public class PrimeiraAva {
+
+   
+    public static void main(String[] args) {
+        
+        
+        
+    }
+    
+}
